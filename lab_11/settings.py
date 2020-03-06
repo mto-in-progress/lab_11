@@ -118,6 +118,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = '/static/'
+<<<<<<< HEAD
 
 # default static files settings for PythonAnywhere.
 # see https://help.pythonanywhere.com/pages/DjangoStaticFiles for more info
@@ -125,3 +126,6 @@ MEDIA_ROOT = '/home/samsam15999/lab_11/media'
 MEDIA_URL = '/media/'
 STATIC_ROOT = '/home/samsam15999/lab_11/static'
 STATIC_URL = '/static/'
+=======
+STATIC_ROOT = 'static/'
+>>>>>>> d7f150cc405dcaeff40e9d09ba521b441b316f78
